@@ -1,4 +1,6 @@
 
+
+
 import { db } from "@/lib/prisma ";
 
 import { isValidCpf, removeCpfPunctuation } from "../menu/helpers/cpf";
@@ -42,3 +44,4 @@ const OrdersPage = async ({ searchParams }: OrdersPageProps) => {
 };
 
 export default OrdersPage;
+
